@@ -14,7 +14,7 @@ db = TinyDB("db.json")
 
 @app.route("/")
 def index():
-    client_ip = request.remote_addr
+    client_ip = request.environ.get('HTTP_X_FORWARDED_FOR', request.remote_addr).split(",")[0]
 
     query = db.search(where("query") == client_ip)
     if query:
