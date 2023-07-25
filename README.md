@@ -7,7 +7,7 @@ Meme generator site with your ip address information
 ## Example
 [Live demo](https://oreq.xyz)
 
-https://github.com/OreQr/ip-address-meme/assets/50458706/3e579deb-f3f5-4910-9dd9-e0137b48e9d1
+https://github.com/OreQr/ip-address-meme/assets/50458706/0acae63e-a1d4-40ee-bab1-03c574fcd5e0
 
 ## Installation
 Tested on Python 3.10.11 
